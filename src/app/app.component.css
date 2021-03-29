@@ -1,0 +1,65 @@
+.topmenu {
+  background-color: white;
+  overflow: hidden;
+}
+.topmenu a {
+float: left;
+color: black;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.topmenu img{
+  padding-left: 10%;
+  width: 300px;
+}
+.topmenu a:hover {
+background-color: white;
+color: rgb(216, 25, 25);
+}
+
+.topmenu a:active {
+  background-color: whitesmoke;
+  color: black;
+}
+.topmenu a.active {
+background-color: whitesmoke;
+color: black;
+}
+.topmenu-right {
+float: right;
+padding-right: 10%;
+}
+.submenu1 a{
+  padding-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+.submenu1 a:hover{
+ font-size: 150%;
+ transition: 0.3s;
+}
+.submenu1{
+  padding-top: 2%;
+  padding-left: 35%;
+}
+
+.cover{
+  padding-top: 2%;
+}
+
+.cover img{
+  width: 1300px;
+  height: 500px;
+}
+.cover .title {
+    color: white;
+    line-height: 90%;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
